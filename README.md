@@ -21,6 +21,35 @@ Créé par [MrJoufflu](https://twitch.tv/mrjoufflu) ([mrjoufflu.com](https://mrj
 Certains caractères accentués ne s'affichent pas correctement en jeu (limitation
 de la police vanilla), donc le texte est volontairement sans accents.
 
+## ⚠️ Limitation connue: la bannière de nom de ville
+
+Quand t'entres dans une nouvelle ville, la bannière du haut de l'écran (ex.
+"CERULEAN CITY") reste en anglais - c'est une limitation du moteur Gen1Recomp,
+pas un oubli. Ce champ ne sert pas juste d'affichage: c'est aussi la clé
+interne qui relie chaque map à ses pancartes, PNJ, magasins et dresseurs. Le
+patcher casserait le texte de 11 villes/villages (voir la 1.0.7 dans le
+[CHANGELOG](CHANGELOG.md) pour les détails). En attendant de trouver une façon
+sûre de le faire, voici le comparatif entre ce que tu vois dans la bannière et
+le vrai nom québécois utilisé partout ailleurs dans le jeu (pancartes,
+arènes, dialogue):
+
+| Bannière (pas traduite) | Nom québécois (dans le jeu) |
+|---|---|
+| PALLET TOWN | BAIE-SAINT-PAUL |
+| VIRIDIAN CITY | MONT-TREMBLANT |
+| PEWTER CITY | THETFORD MINES |
+| CERULEAN CITY | BAIE-COMEAU |
+| LAVENDER TOWN | VAL-JALBERT |
+| VERMILION CITY | RIMOUSKI |
+| CELADON CITY | LAVAL |
+| FUCHSIA CITY | HEMMINGFORD |
+| CINNABAR ISLAND | PERCÉ |
+| SAFFRON CITY | MONTRÉAL |
+| INDIGO PLATEAU | QUÉBEC |
+| MT. MOON | MONT MÉGANTIC |
+| POKÉMON TOWER | TOUR DE VAL-JALBERT |
+| S.S. ANNE | TRANS-ST-LAURENT |
+
 ## Installation
 
 1. Télécharge le dernier `.zip` depuis la page
