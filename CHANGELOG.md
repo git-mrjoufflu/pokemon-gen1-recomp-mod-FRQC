@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.5
+
+- Passe complete de revalidation pour trainer d'autres tournures trop
+  "France" et des bugs de grammaire:
+  - "n'est-ce pas?" avait perdu son "n'" (devenu "est-ce pas?", incorrect) -
+    remplace par "hein?".
+  - Plusieurs questions inversees ("As-tu", "Sais-tu", "Crois-tu"...) avaient
+    ete cassees par erreur en "As-t'une", "Sais-t'ou", etc. Corrige en gardant
+    "Va-t'en" (correct, different mot) intact.
+  - OPP_YOUNGSTER (TIT-GARS) renomme en KEVEUNE.
+  - OPP_GAMBLER (PARIEUR) renomme en GAMBLEUR.
+
 ## 1.0.4
 
 - Le nom du bateau (LE TRANS-SAINT-LAURENT) etait trop long et debordait de la
