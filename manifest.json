@@ -1,7 +1,7 @@
 {
   "id": "translation-qc",
   "name": "Québécois French translation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "github": "git-mrjoufflu/pokemon-gen1-recomp-mod-FRQC",
   "api": 2,
   "entry": "main.lua",

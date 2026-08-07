@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3
+
+- Parmanie (Fuchsia City, la Zone Safari) devient Hemmingford au lieu de
+  Tadoussac - Hemmingford est le vrai emplacement du Parc Safari au Québec.
+
 ## 1.0.2
 
 - POKEMON s'affiche maintenant tout en majuscules partout (au lieu du "POKeMON"
