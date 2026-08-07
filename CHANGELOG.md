@@ -1,6 +1,8 @@
 # Changelog
 
-## 1.0.8 - EXPERIMENTAL: vrais accents (police TTF)
+## 1.0.8
+
+EXPERIMENTAL: vrais accents (police TTF) - a tester en jeu.
 
 - gen1recomp inclut une police TTF pixel (Plain Pixel, CC-BY 4.0) prevue
   exactement pour ca: `mod.content.font:register("ttf", {})` fait passer
