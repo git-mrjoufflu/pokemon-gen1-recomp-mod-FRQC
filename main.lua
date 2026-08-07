@@ -79,9 +79,6 @@ return function(mod)
   counts.statuses = each("status_labels", function(id, value)
     mod.content.statuses:patch(id, { label = value })
   end)
-  counts.maps = each("map_names", function(id, value)
-    mod.content.maps:patch(id, { label = value })
-  end)
 
   -- ---- name entry ---------------------------------------------------
   -- The naming screen's letter grid.  Leave lang/naming.lua returning nil

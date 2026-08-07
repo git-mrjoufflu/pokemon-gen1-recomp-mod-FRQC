@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.7
+
+- Correctif urgent: la 1.0.6 patchait le champ `label` du registre `maps` de
+  gen1recomp pour essayer de traduire la banniere de nom de ville affichee
+  en entrant quelque part ("CERULEAN CITY"). Mauvaise piste: ce champ sert
+  en fait de cle interne pour retrouver le texte des pancartes, PNJ,
+  magasins et dresseurs de la map (`Game.data:resolveText`), pas de texte
+  affiche. Le patcher risquait de casser le texte des 11 villes/villages
+  renommes. Retire lang/map_names.lua et le hook associe dans main.lua -
+  retour a un etat sain le temps de trouver la bonne facon de traduire
+  cette banniere (elle ne semble pas exposee par les registres de mods de
+  gen1recomp pour l'instant).
+
 ## 1.0.6
 
 - MONT SELENITE (Mt. Moon) devient MONT MEGANTIC, en hommage a la vraie
