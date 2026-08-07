@@ -1,85 +1,91 @@
 {
-  "modkit": "1.0.0",
-  "packed_at": "2026-08-07T18:11:28Z",
-  "id": "translation-qc",
-  "version": "1.0.5",
-  "api": 2,
-  "engine_range": ">=0.0.0-dev",
+  "version": "1.0.6",
+  "packed_at": "2026-08-07T18:34:36Z",
   "files": [
     {
-      "path": "lang/charmap.lua",
-      "bytes": 335,
-      "sha256": "b41df709eada2cedb4b4b9db449b1728d219ab1de7ffad9c3295668a1f9f4686"
-    },
-    {
-      "path": "lang/dialogue.lua",
-      "bytes": 275287,
-      "sha256": "ad33ca6d2d690606b56270d16d21794a34c8b2a64ca9003ceb76c5b4cae9c504"
-    },
-    {
-      "path": "lang/font.lua",
-      "bytes": 477,
-      "sha256": "3f8cef33b746c4c9967617af1bb93ab55f48e3bdfc616453368dfcec9f80581f"
-    },
-    {
-      "path": "lang/item_names.lua",
-      "bytes": 4753,
-      "sha256": "41dfc224da87a71fbf0d4e053e58456e5610515fb38d601a1fdda29726e97349"
-    },
-    {
-      "path": "lang/literal_handlers.lua",
-      "bytes": 4773,
-      "sha256": "62d785e032356366623aeacfd076dad440c9e7e240e7239615276f820bca9c2a"
-    },
-    {
-      "path": "lang/move_names.lua",
-      "bytes": 5240,
-      "sha256": "c601793c133ee904a05cf2e6e486f2637cd6d035a0fe0e9fc8ea07a99e8fec86"
-    },
-    {
-      "path": "lang/naming.lua",
-      "bytes": 656,
-      "sha256": "06bd10f65544e93f5ef4286a8cb7caa6bae4e629d0f6104668133d4aaed5dee3"
-    },
-    {
-      "path": "lang/species_names.lua",
-      "bytes": 4626,
-      "sha256": "f3c9e0067be2dde69bc570bd774fa12c3fcdf8a4207650eb3cabd09edb987b1b"
-    },
-    {
-      "path": "lang/status_labels.lua",
-      "bytes": 184,
-      "sha256": "5a756d0eace46c310b3f8034ff7c6222352b8f51f9af0f82bdfeeca363e6d6ad"
-    },
-    {
-      "path": "lang/strings.lua",
-      "bytes": 33476,
-      "sha256": "511bd67a7be116a967fbae0b0ead9be391be6b937ad5f29ac52f25f8d3544be6"
-    },
-    {
-      "path": "lang/trainer_names.lua",
-      "bytes": 1692,
-      "sha256": "6af3fee2fe5bf273742752148f11da7dd3260c84db33986c77aaf05ca1cf202c"
+      "path": "manifest.json",
+      "sha256": "1cba2ccf0244ac1fbecc64724a18702a5d2bf9946e185f632ae8cd78245f6b51",
+      "bytes": 709
     },
     {
       "path": "main.lua",
-      "bytes": 4014,
-      "sha256": "36036b62c9eeef524ea08bf7a30951bc54933551f11d85656584196a82999bee"
-    },
-    {
-      "path": "manifest.json",
-      "bytes": 709,
-      "sha256": "0cff853e88627b002affc65a0cbd637b38837fc86d47550e4c3aacc3630a86d8"
+      "sha256": "ed6ee697821b4fecf315948f83b05232f1fbdae979bae0d2d6f8effb03c963ce",
+      "bytes": 4125
     },
     {
       "path": "mod.card",
-      "bytes": 1214,
-      "sha256": "764b960a8463e9615e38b8be216860e3c762a68b132aae8265224a61109a12f0"
+      "sha256": "764b960a8463e9615e38b8be216860e3c762a68b132aae8265224a61109a12f0",
+      "bytes": 1214
+    },
+    {
+      "path": "README.md",
+      "sha256": "5db0fdbd538366e42cdaff9ac1826e5810fe7e64140075ade138c993c792176a",
+      "bytes": 2366
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "036455c03a80e48cb455a3018085a7ed58b4f7f0163c9fff08344f57331870bc",
+      "bytes": 3315
+    },
+    {
+      "path": "lang/charmap.lua",
+      "sha256": "b41df709eada2cedb4b4b9db449b1728d219ab1de7ffad9c3295668a1f9f4686",
+      "bytes": 335
+    },
+    {
+      "path": "lang/dialogue.lua",
+      "sha256": "34ff4b5aae9ca327c9b88c8cb2cb38ccd377b79440ba0680065419e3e5365f9b",
+      "bytes": 275294
+    },
+    {
+      "path": "lang/font.lua",
+      "sha256": "3f8cef33b746c4c9967617af1bb93ab55f48e3bdfc616453368dfcec9f80581f",
+      "bytes": 477
+    },
+    {
+      "path": "lang/item_names.lua",
+      "sha256": "41dfc224da87a71fbf0d4e053e58456e5610515fb38d601a1fdda29726e97349",
+      "bytes": 4753
+    },
+    {
+      "path": "lang/literal_handlers.lua",
+      "sha256": "62d785e032356366623aeacfd076dad440c9e7e240e7239615276f820bca9c2a",
+      "bytes": 4773
+    },
+    {
+      "path": "lang/map_names.lua",
+      "sha256": "74baa2bcded30257f6c0cdfdb83267e63266bc7b4e6bb828876e9cd91362a371",
+      "bytes": 593
+    },
+    {
+      "path": "lang/move_names.lua",
+      "sha256": "c601793c133ee904a05cf2e6e486f2637cd6d035a0fe0e9fc8ea07a99e8fec86",
+      "bytes": 5240
+    },
+    {
+      "path": "lang/naming.lua",
+      "sha256": "06bd10f65544e93f5ef4286a8cb7caa6bae4e629d0f6104668133d4aaed5dee3",
+      "bytes": 656
+    },
+    {
+      "path": "lang/species_names.lua",
+      "sha256": "f3c9e0067be2dde69bc570bd774fa12c3fcdf8a4207650eb3cabd09edb987b1b",
+      "bytes": 4626
+    },
+    {
+      "path": "lang/status_labels.lua",
+      "sha256": "5a756d0eace46c310b3f8034ff7c6222352b8f51f9af0f82bdfeeca363e6d6ad",
+      "bytes": 184
+    },
+    {
+      "path": "lang/strings.lua",
+      "sha256": "511bd67a7be116a967fbae0b0ead9be391be6b937ad5f29ac52f25f8d3544be6",
+      "bytes": 33476
+    },
+    {
+      "path": "lang/trainer_names.lua",
+      "sha256": "6af3fee2fe5bf273742752148f11da7dd3260c84db33986c77aaf05ca1cf202c",
+      "bytes": 1692
     }
-  ],
-  "lint": {
-    "no_rom_content": "unverified",
-    "schema": "unverified",
-    "cross_refs": "unverified"
-  }
+  ]
 }

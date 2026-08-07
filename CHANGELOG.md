@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.6
+
+- MONT SELENITE (Mt. Moon) devient MONT MEGANTIC, en hommage a la vraie
+  montagne astronomique du Quebec (observatoire, reserve de ciel etoile) -
+  theme parfait pour un lieu associe a la lune et aux meteorites.
+- "Damnation!" (le gentleman du centre POKEMON de THETFORD MINES) devient
+  "Calvaire!".
+- "Prof. Chen" (nom francais officiel laisse par erreur dans 2 dialogues de
+  l'assistant) corrige en "PROF. TREMBLAY" pour matcher le reste du jeu.
+- Nouveau: les noms de lieux affiches quand t'entres dans une ville
+  (la banniere en haut de l'ecran, ex. "CERULEAN CITY") et sur la CARTE
+  n'etaient jamais traduits - juste le texte des panneaux l'etait. Ajoute
+  lang/map_names.lua pour corriger les 11 villes/villages renommes
+  (BAIE-SAINT-PAUL, MONT-TREMBLANT, THETFORD MINES, BAIE-COMEAU,
+  VAL-JALBERT, RIMOUSKI, LAVAL, HEMMINGFORD, PERCE, MONTREAL, QUEBEC).
+
 ## 1.0.5
 
 - Passe complete de revalidation pour trainer d'autres tournures trop
