@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.4
+
+- Le nom du bateau (LE TRANS-SAINT-LAURENT) etait trop long et debordait de la
+  boite de texte, coupant le mot suivant. Raccourci a TRANS-ST-LAURENT et
+  isole sur sa propre ligne partout ou il apparait.
+- Corrige "de LE TRANS-ST-LAURENT" en "du TRANS-ST-LAURENT" (grammaire).
+
 ## 1.0.3
 
 - Parmanie (Fuchsia City, la Zone Safari) devient Hemmingford au lieu de

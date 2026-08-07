@@ -1,8 +1,8 @@
 {
   "modkit": "1.0.0",
-  "packed_at": "2026-08-07T17:55:34Z",
+  "packed_at": "2026-08-07T17:59:43Z",
   "id": "translation-qc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "api": 2,
   "engine_range": ">=0.0.0-dev",
   "files": [
@@ -13,8 +13,8 @@
     },
     {
       "path": "lang/dialogue.lua",
-      "bytes": 275295,
-      "sha256": "a1ff6dc58b349f4594466a5dad4a68a3b5728947aedd7a966c09a1219d3d31a9"
+      "bytes": 275278,
+      "sha256": "cb0f220a21d10c0156d859e11d2b9c8001ee002c2769c6ac31b097ce43b441c2"
     },
     {
       "path": "lang/font.lua",
@@ -69,7 +69,7 @@
     {
       "path": "manifest.json",
       "bytes": 709,
-      "sha256": "4e35e952a98f5f4eda38546f9991b2e67af48fa1de56256f7ae47e68573218a3"
+      "sha256": "715999f54dab91b92522be45b213f7bb2f1c89a1bd4b80960f5c16460841dfc0"
     },
     {
       "path": "mod.card",
