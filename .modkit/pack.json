@@ -1,10 +1,10 @@
 {
-  "version": "1.0.7",
-  "packed_at": "2026-08-07T18:53:24Z",
+  "version": "1.0.8",
+  "packed_at": "2026-08-07T23:45:25Z",
   "files": [
     {
       "path": "manifest.json",
-      "sha256": "a18a11abf5d124793baaed5d2de4b18a88a0b435e5c50d9414603d24cddf723f",
+      "sha256": "8f281faa51e0cec29cff1f17628742844541d52af1939fd8827fe68338a8a187",
       "bytes": 709
     },
     {
@@ -19,13 +19,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "5db0fdbd538366e42cdaff9ac1826e5810fe7e64140075ade138c993c792176a",
-      "bytes": 2366
+      "sha256": "3f76e94c22daae0279a047aa6efa9dedcbd2ba95da9e7d2fb58691b2f699d7e9",
+      "bytes": 3578
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "18a47b7ae90d8303dc424e9fdd756909d72f73c95e37bcf330af39e7d196c8fc",
-      "bytes": 4017
+      "sha256": "a7252d07cf77665cea2a335bbd4d41802d05fa6d21e6a492875ccf42035aa884",
+      "bytes": 4969
     },
     {
       "path": "lang/charmap.lua",
@@ -34,13 +34,13 @@
     },
     {
       "path": "lang/dialogue.lua",
-      "sha256": "34ff4b5aae9ca327c9b88c8cb2cb38ccd377b79440ba0680065419e3e5365f9b",
-      "bytes": 275294
+      "sha256": "670310489367cbe3e15117c37463fb7cc022c84850008d1b0dfdca5b41a305cf",
+      "bytes": 275320
     },
     {
       "path": "lang/font.lua",
-      "sha256": "3f8cef33b746c4c9967617af1bb93ab55f48e3bdfc616453368dfcec9f80581f",
-      "bytes": 477
+      "sha256": "49f8bb0c9e5082ea6f48accea534c63ca07a005e5950b17319b3f151d2d992b2",
+      "bytes": 930
     },
     {
       "path": "lang/item_names.lua",

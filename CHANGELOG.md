@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.0.8 - EXPERIMENTAL: vrais accents (police TTF)
+
+- gen1recomp inclut une police TTF pixel (Plain Pixel, CC-BY 4.0) prevue
+  exactement pour ca: `mod.content.font:register("ttf", {})` fait passer
+  tout le texte par un rendu avec accents complets, pendant que les
+  bordures de boite gardent leurs tuiles d'origine. lang/font.lua active
+  maintenant cette police.
+- Test visuel: MONTREAL, QUEBEC et PERCE (Cinnabar) s'affichent maintenant
+  MONTRÉAL, QUÉBEC et PERCÉ - premiers vrais accents du mod, avant de
+  reprendre le reste du texte au complet.
+- ATTENTION: tout le texte du jeu a ete "wrappe" ligne par ligne pour la
+  police tuile 8px monospace d'origine. Une police TTF a chasse variable
+  peut deplacer ou l'espace disponible par ligne, causant potentiellement
+  du debordement ou du texte coupe ailleurs dans le jeu. A tester en jeu
+  avant d'aller plus loin avec les accents - envoie des captures d'ecran
+  si quelque chose deborde.
+
 ## 1.0.7
 
 - Correctif urgent: la 1.0.6 patchait le champ `label` du registre `maps` de
