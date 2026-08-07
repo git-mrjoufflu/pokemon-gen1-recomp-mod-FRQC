@@ -1,8 +1,8 @@
 {
   "modkit": "1.0.0",
-  "packed_at": "2026-08-07T17:00:52Z",
+  "packed_at": "2026-08-07T17:25:37Z",
   "id": "translation-qc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "api": 2,
   "engine_range": ">=0.0.0-dev",
   "files": [
@@ -68,8 +68,8 @@
     },
     {
       "path": "manifest.json",
-      "bytes": 651,
-      "sha256": "fcd9477e15c225a86c5691a2adcef0883895b7999bb0b662a1025e23e3a45d72"
+      "bytes": 709,
+      "sha256": "4c06954364eaccd13122d0700ee9073aa8c03fe7d77cf7b5ccc7d212f3a1dee8"
     },
     {
       "path": "mod.card",

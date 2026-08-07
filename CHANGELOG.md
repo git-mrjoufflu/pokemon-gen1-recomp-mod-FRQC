@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+- Active la verification de mise a jour automatique dans le gestionnaire de mods
+  de Gen1Recomp (le jeu va maintenant te dire quand une nouvelle version est
+  disponible).
+
 ## 1.0.0
 
 Première version publique.
