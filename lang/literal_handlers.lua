@@ -4,7 +4,7 @@ return function(mod)
   local ChoiceBox = mod.ui.ChoiceBox
   mod.content.map_scripts:register("VIRIDIAN_CITY", {talk = {
     ["TEXT_VIRIDIANCITY_YOUNGSTER2"] = function(game, ow, npc, done)
-      game.stack:push(TextBox.new(game, "Tu veux en savoir\nplus sur les 2\11sortes de chenilles\11POKeMON?", function()
+      game.stack:push(TextBox.new(game, "Tu veux en savoir\nplus sur les 2\11sortes de chenilles\11POKEMON?", function()
         game.stack:push(ChoiceBox.new(game, function(yes)
           game.stack:push(TextBox.new(game, yes and "CATERPIE a pas\nde poison, mais\11WEEDLE en a.\12Fais attention a\nson POISON STING!" or "Ah, correct\11d'abord!", done))
         end))

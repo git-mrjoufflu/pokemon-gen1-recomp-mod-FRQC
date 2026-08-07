@@ -1,8 +1,8 @@
 {
   "modkit": "1.0.0",
-  "packed_at": "2026-08-07T17:25:37Z",
+  "packed_at": "2026-08-07T17:53:15Z",
   "id": "translation-qc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "api": 2,
   "engine_range": ">=0.0.0-dev",
   "files": [
@@ -13,8 +13,8 @@
     },
     {
       "path": "lang/dialogue.lua",
-      "bytes": 275265,
-      "sha256": "aa44471004411356084fb62942e8769794fb1dd4423dba2dbbe9adb0b8209587"
+      "bytes": 275269,
+      "sha256": "62002c95f829388956b4f75df44c43b8b23b4918991b742cf3720d4aaa094149"
     },
     {
       "path": "lang/font.lua",
@@ -23,13 +23,13 @@
     },
     {
       "path": "lang/item_names.lua",
-      "bytes": 4598,
-      "sha256": "e4b745b948246abc87dfe1385e7aad41274013c0f78560ee7950d29abd43719a"
+      "bytes": 4753,
+      "sha256": "41dfc224da87a71fbf0d4e053e58456e5610515fb38d601a1fdda29726e97349"
     },
     {
       "path": "lang/literal_handlers.lua",
       "bytes": 4773,
-      "sha256": "1079f7717f3ebe17393552c939c9f695c6b47b6760af58b01f476f93b2caec91"
+      "sha256": "62d785e032356366623aeacfd076dad440c9e7e240e7239615276f820bca9c2a"
     },
     {
       "path": "lang/move_names.lua",
@@ -53,13 +53,13 @@
     },
     {
       "path": "lang/strings.lua",
-      "bytes": 32801,
-      "sha256": "6d59a56fd4be67fabe33f6a4e248216d694aa06cb40f669f94b1661d246333ee"
+      "bytes": 33476,
+      "sha256": "511bd67a7be116a967fbae0b0ead9be391be6b937ad5f29ac52f25f8d3544be6"
     },
     {
       "path": "lang/trainer_names.lua",
-      "bytes": 1642,
-      "sha256": "f18d82c16ab072d0980dda236e63fb12db00f396e2c383bf1c91bd0154d1a98c"
+      "bytes": 1692,
+      "sha256": "563fbda8c80c0083a4d6f7537a623fa46d012996f19768933a38fbcebdc2f3d2"
     },
     {
       "path": "main.lua",
@@ -69,7 +69,7 @@
     {
       "path": "manifest.json",
       "bytes": 709,
-      "sha256": "4c06954364eaccd13122d0700ee9073aa8c03fe7d77cf7b5ccc7d212f3a1dee8"
+      "sha256": "842cae2aa5b647d0ae5443853ea33af26d68f06465987b017deb98846a4fa20e"
     },
     {
       "path": "mod.card",
