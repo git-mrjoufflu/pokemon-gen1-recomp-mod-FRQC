@@ -1,0 +1,15 @@
+{
+  "id": "translation-qc",
+  "name": "Québécois French translation",
+  "version": "1.0.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "game_version": ">=0.0.0-dev",
+  "category": "GAMEPLAY",
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "description": "Québécois French translation for Pokémon Red and Blue, based on the official French dialogue with Québécois joual vocabulary and sacres layered in. Some special characters may not display correctly in game, and some text remains untranslated. Créé par MrJoufflu — https://twitch.tv/mrjoufflu — https://mrjoufflu.com"
+}

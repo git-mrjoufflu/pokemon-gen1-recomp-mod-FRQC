@@ -1,0 +1,85 @@
+{
+  "modkit": "1.0.0",
+  "packed_at": "2026-08-07T17:00:52Z",
+  "id": "translation-qc",
+  "version": "1.0.0",
+  "api": 2,
+  "engine_range": ">=0.0.0-dev",
+  "files": [
+    {
+      "path": "lang/charmap.lua",
+      "bytes": 335,
+      "sha256": "b41df709eada2cedb4b4b9db449b1728d219ab1de7ffad9c3295668a1f9f4686"
+    },
+    {
+      "path": "lang/dialogue.lua",
+      "bytes": 275265,
+      "sha256": "aa44471004411356084fb62942e8769794fb1dd4423dba2dbbe9adb0b8209587"
+    },
+    {
+      "path": "lang/font.lua",
+      "bytes": 477,
+      "sha256": "3f8cef33b746c4c9967617af1bb93ab55f48e3bdfc616453368dfcec9f80581f"
+    },
+    {
+      "path": "lang/item_names.lua",
+      "bytes": 4598,
+      "sha256": "e4b745b948246abc87dfe1385e7aad41274013c0f78560ee7950d29abd43719a"
+    },
+    {
+      "path": "lang/literal_handlers.lua",
+      "bytes": 4773,
+      "sha256": "1079f7717f3ebe17393552c939c9f695c6b47b6760af58b01f476f93b2caec91"
+    },
+    {
+      "path": "lang/move_names.lua",
+      "bytes": 5240,
+      "sha256": "c601793c133ee904a05cf2e6e486f2637cd6d035a0fe0e9fc8ea07a99e8fec86"
+    },
+    {
+      "path": "lang/naming.lua",
+      "bytes": 656,
+      "sha256": "06bd10f65544e93f5ef4286a8cb7caa6bae4e629d0f6104668133d4aaed5dee3"
+    },
+    {
+      "path": "lang/species_names.lua",
+      "bytes": 4626,
+      "sha256": "f3c9e0067be2dde69bc570bd774fa12c3fcdf8a4207650eb3cabd09edb987b1b"
+    },
+    {
+      "path": "lang/status_labels.lua",
+      "bytes": 184,
+      "sha256": "5a756d0eace46c310b3f8034ff7c6222352b8f51f9af0f82bdfeeca363e6d6ad"
+    },
+    {
+      "path": "lang/strings.lua",
+      "bytes": 32801,
+      "sha256": "6d59a56fd4be67fabe33f6a4e248216d694aa06cb40f669f94b1661d246333ee"
+    },
+    {
+      "path": "lang/trainer_names.lua",
+      "bytes": 1642,
+      "sha256": "f18d82c16ab072d0980dda236e63fb12db00f396e2c383bf1c91bd0154d1a98c"
+    },
+    {
+      "path": "main.lua",
+      "bytes": 4014,
+      "sha256": "36036b62c9eeef524ea08bf7a30951bc54933551f11d85656584196a82999bee"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 651,
+      "sha256": "fcd9477e15c225a86c5691a2adcef0883895b7999bb0b662a1025e23e3a45d72"
+    },
+    {
+      "path": "mod.card",
+      "bytes": 1214,
+      "sha256": "764b960a8463e9615e38b8be216860e3c762a68b132aae8265224a61109a12f0"
+    }
+  ],
+  "lint": {
+    "no_rom_content": "unverified",
+    "schema": "unverified",
+    "cross_refs": "unverified"
+  }
+}

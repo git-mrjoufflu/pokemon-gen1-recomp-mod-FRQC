@@ -1,0 +1,26 @@
+-- Sharing metadata (read by tooling and the manager detail pane; never
+-- by the loader's merge).
+return {
+  summary = "Traduction quebecoise (joual + sacres cibles) de Pokemon Rouge/Bleu/Jaune, basee sur le texte francais officiel.",
+  author = "MrJoufflu",
+  contact = "https://twitch.tv/mrjoufflu",
+  tags = { "translation", "quebecois", "french", "localization" },
+  differences = {
+    changed = {
+      "tout le texte du jeu (dialogue, combat, menus) est traduit en francais quebecois",
+      "les noms de plusieurs personnages sont adaptes en quebecois (ex. PROF.OAK devient PROF.TREMBLAY)",
+      "les noms d'especes et d'attaques utilisent la terminologie francaise officielle",
+    },
+    added = {
+      "sacres quebecois cibles sur les moments dramatiques (Team Rocket, rival, Giovanni)",
+    },
+    known = {
+      "les caracteres accentues ne s'affichent pas dans la police vanilla, donc le texte est sans accents",
+    },
+  },
+  credits = {
+    { who = "MrJoufflu", for_ = "traduction et adaptation quebecoise" },
+    { who = "pret/pokered, pret/pokeyellow, pokered-fr, pokeyellow-fr", for_ = "texte source anglais et francais officiel" },
+  },
+  compat = { engine = ">=0.0.0-dev", modApi = 2 },
+}
