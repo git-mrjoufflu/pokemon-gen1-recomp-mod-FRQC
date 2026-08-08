@@ -300,6 +300,7 @@ return {
   ["There's no more\nroom for POKéMON!\11%s was\11sent to POKéMON\11BOX %s on PC!"] = "Y'a pu de\nplace pour les\11POKEMON!\11%s a ete\11envoye a la\11BOX POKEMON %s\11sur le PC!",
   ["contribution is not a table"] = "contribution is\nnot a table",
   [" [%s %s.%s]"] = " [%s %s.%s]",
+  ["%s got a\nMAGIKARP!"] = "%s a recu\nune MAGICARPE!",
   ["%s got off\nthe BICYCLE."] = "%s est\ndescendu du\11BECYK.",
   ["%s got on\nthe BICYCLE!"] = "%s est monte\nsur la BICYCLETTE!",
   ["No cycling\nallowed here."] = "Le BECYK est pas\npermis icitte.",

@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.0.13
+
+- Bug rapporte en jeu: "MAGIKARP! A steal at ¥500! Want one?" restait en
+  anglais chez le vendeur de MAGICARPE du centre POKEMON du MONT
+  MEGANTIC. La traduction existait deja mais etait enregistree sous le
+  mauvais nom de cle (`...IGotADealText` au lieu de `...OfferText`), donc
+  le jeu la trouvait jamais et retombait sur le texte anglais code en dur
+  du moteur. Corrige le nom de cle, et ajoute la traduction du message de
+  confirmation d'achat ("%s got a MAGIKARP!") qui manquait carrement.
+- Passe en bloc sur les ~90 lignes de dialogue PNJ plus anciennes
+  signalees dans la 1.0.12 comme proches ou au-dela de la limite de 18
+  caracteres par ligne (surtout a cause de TREMBLAY, des noms de villes
+  quebecois et de mots comme icitte/mautadine/un p'tit peu). Deplace les
+  coupures de ligne sans toucher au texte lui-meme. Verifie qu'il reste
+  plus aucune ligne en depassement dans le dialogue PNJ (Pokedex et
+  pancartes non touches, comme d'habitude).
+
 ## 1.0.12
 
 - Bug rapporte en jeu: "Le PROF. TREMBLAY est" (22 caracteres) debordait
