@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.0.14
+
+EXPERIMENTAL: nouvel essai (sans danger cette fois) pour traduire la
+banniere de nom de ville affichee en entrant quelque part.
+
+- La 1.0.6 avait patche le champ `label` du registre `maps` et casse le
+  texte des 11 villes (revert en 1.0.7). Cette fois: retrouve les vrais
+  noms d'etiquette du jeu original (pret/pokered data/maps/names.asm -
+  CeruleanCityName, PalletTownName, etc.) et les ajoute comme simples
+  entrees de dialogue.lua (`mod.content.text:override`), le meme systeme
+  sur et deja utilise partout ailleurs dans ce mod.
+- Ces cles n'apparaissent nulle part dans le code source de gen1recomp,
+  donc rien ne garantit que ca va marcher - la banniere pourrait etre
+  decodee directement depuis la ROM, en dehors du systeme de mods.
+  Contrairement a la 1.0.6, si ca marche pas, ca fait juste rien (aucun
+  risque de casser autre chose).
+- A tester en jeu: si la banniere affiche encore le nom anglais apres
+  cette mise a jour, ca confirme que c'est pas accessible via les mods
+  presentement.
+
 ## 1.0.13
 
 - Bug rapporte en jeu: "MAGIKARP! A steal at ¥500! Want one?" restait en

@@ -2792,4 +2792,23 @@ return {
   ["ViridianCityFisherYouCanHaveThisText"] = "(Baiiiille)!\nJ'ai du dormir\11dehors.\12J'ai reve qu'un\nSOPORIFIK\11devorait mes\11reves... Heu?\11Qu'est-ce que\11cette CT fait la?\12C'est dingue ca!\nTiens... Al est\11pour toe.",
   ["TMNotebookText"] = "C'est un rapport\nsur les CT.\12...\12Y existe en tout\n50 CT (Capsule\11Technique).\125 CS (Capsule\nSecrete) sont a\11utiliser a\11l'infini.\12SYLPHE INC.",
   ["TeachingHMsText"] = "Une fois qu'un\nPOKEMON a appris\11une CS, y ne\11pourra plus\11l'oublier.\12Y faut faque\nbien choisir le\11POKEMON en\11question.",
+
+  -- Experimental: pret/pokered's data/maps/names.asm labels for the
+  -- "entering a location" banner and the Town Map. Not confirmed to work -
+  -- gen1recomp's maps registry has no display-name field (see 1.0.6/1.0.7),
+  -- and none of these label names show up anywhere in its own source, so
+  -- this banner may be decoded straight from the ROM outside the mod
+  -- system entirely. Costs nothing to try: if the key doesn't match
+  -- anything, it's a silent no-op and the banner just stays English.
+  ["PalletTownName"] = "BAIE-SAINT-PAUL",
+  ["ViridianCityName"] = "MONT-TREMBLANT",
+  ["PewterCityName"] = "THETFORD MINES",
+  ["CeruleanCityName"] = "BAIE-COMEAU",
+  ["LavenderTownName"] = "VAL-JALBERT",
+  ["VermilionCityName"] = "RIMOUSKI",
+  ["CeladonCityName"] = "LAVAL",
+  ["FuchsiaCityName"] = "HEMMINGFORD",
+  ["CinnabarIslandName"] = "PERCE",
+  ["IndigoPlateauName"] = "QUEBEC",
+  ["SaffronCityName"] = "MONTREAL",
 }
