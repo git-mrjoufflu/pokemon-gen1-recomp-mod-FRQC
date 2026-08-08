@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.0.9
+
+- Revert de l'experiment 1.0.8 (police TTF): confirme en jeu que l'ecran de
+  combat positionne le nom, le HP et les attaques a des offsets de pixels
+  fixes qui assument la police tuile 8px monospace d'origine. Avec la
+  police TTF a chasse variable, tout ce texte se chevauchait en combat
+  (nom/HP/attaques illisibles, empiles les uns sur les autres). Les boites
+  de dialogue normales allaient bien, mais le combat etait casse, donc
+  retour a la police vanilla. MONTREAL/QUEBEC/PERCE reviennent en ASCII
+  (sans accent) en meme temps - ils redeviendraient des glyphes manquants
+  sans la police TTF pour les afficher.
+- De vrais accents restent une piste a explorer (glyphes dessines a la
+  main dans le style pixel carre d'origine plutot qu'une police TTF a
+  chasse variable), mais pas via cette route.
+
 ## 1.0.8
 
 EXPERIMENTAL: vrais accents (police TTF) - a tester en jeu.

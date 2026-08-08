@@ -5,13 +5,11 @@
 -- above the vanilla $60/$80 pages, so this adds an alphabet rather than
 -- replacing one.  Set `advance` if your glyphs are not 8px wide.
 return {
-  -- French needs way more glyphs (accented upper+lowercase, ligatures) than
-  -- hand-drawn page tiles are worth authoring one at a time.  gen1recomp
-  -- bundles Plain Pixel (CC-BY 4.0, Douglas Vautour) for exactly this: an
-  -- empty table opts into it at its native size, full accent coverage,
-  -- while box borders and multi-char sequences (<PK>, 'd ligatures) keep
-  -- their vanilla tiles regardless.  This is what finally lets accented
-  -- text (é, è, à, ç, î, ô, û...) render instead of the ASCII-folded
-  -- fallback the rest of this mod has used until now.
-  ttf = {},
+  -- Tried mod.content.font:register("ttf", {}) (gen1recomp's bundled Plain
+  -- Pixel) in 1.0.8 to get real accents.  Reverted in 1.0.9: the battle
+  -- screen positions HP/name/move text at fixed pixel offsets that assume
+  -- the vanilla 8px monospace tile font, and the TTF's variable-width
+  -- glyphs made all of it overlap into unreadable garbage. Dialogue boxes
+  -- were fine; battle was not, so this is off again until there's a way to
+  -- get accents without breaking battle.
 }
