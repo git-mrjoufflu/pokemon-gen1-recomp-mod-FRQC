@@ -1,10 +1,10 @@
 {
-  "version": "1.0.14",
-  "packed_at": "2026-08-08T02:43:20Z",
+  "version": "1.0.15",
+  "packed_at": "2026-08-08T02:50:37Z",
   "files": [
     {
       "path": "manifest.json",
-      "sha256": "4c107b09207249c6ec35b3fb1852a8dbb282e199923f3680ef6b87936a401b35",
+      "sha256": "e2ed2aadf1ee5e46e3b0a2d61ddf93e17706aa13395684105e02796ce01350ab",
       "bytes": 710
     },
     {
@@ -24,8 +24,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "5c790c2f8ac17680d28dce3170ec63b96642a55326838b051e7ad3ab797dd651",
-      "bytes": 10004
+      "sha256": "ebf9d6fec5987a84881a8332b9facf8cb7f0d6e2d4838d14dbf5e715ab00cfc6",
+      "bytes": 10618
     },
     {
       "path": "lang/charmap.lua",
@@ -34,8 +34,8 @@
     },
     {
       "path": "lang/dialogue.lua",
-      "sha256": "38a67810bd79f7b10e3e8add0c4de388111b08023ad630ebbf7aac13a2e39fc4",
-      "bytes": 276062
+      "sha256": "ab36ddf4fcf313e1b5906172c2b8be89a3b0cd23205f24102c0420ab6af5e7d7",
+      "bytes": 275113
     },
     {
       "path": "lang/font.lua",

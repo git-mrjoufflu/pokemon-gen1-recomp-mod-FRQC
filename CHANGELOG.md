@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.15
+
+- Resultat de l'experiment de la 1.0.14: confirme en jeu que ca marche
+  pas (banniere "SAFFRON CITY" testee, reste en anglais). La banniere de
+  nom de ville est bel et bien decodee directement de la ROM, en dehors
+  du systeme de mods de gen1recomp. Retire les cles mortes de
+  dialogue.lua.
+- Demande de fonctionnalite ouverte aupres de gen1recomp pour ajouter un
+  vrai champ de nom d'affichage au registre `maps`:
+  https://github.com/bryanthaboi/gen1recomp/issues/976
+- En attendant, le comparatif dans le README reste la reference pour
+  savoir a quoi correspond chaque nom de banniere anglais.
+
 ## 1.0.14
 
 EXPERIMENTAL: nouvel essai (sans danger cette fois) pour traduire la
