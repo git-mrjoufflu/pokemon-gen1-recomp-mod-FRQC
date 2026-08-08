@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.16
+
+- Bug rapporte en jeu: "It will whisk you back to any town!" (l'explication
+  de CS02 VOL chez la fille de la cache secrete du ROUTE 16) restait en
+  anglais. Meme famille de bug que le vendeur de MAGICARPE (1.0.13): la
+  cle existait mais avec la mauvaise casse (`HM02` au lieu de `Hm02`),
+  donc jamais trouvee par le moteur. Corrige, plus 2 messages relies qui
+  etaient carrement codes en dur sans cle de traduction du tout ("You
+  don't have room for HM02!" et "%s got HM02!").
+
 ## 1.0.15
 
 - Resultat de l'experiment de la 1.0.14: confirme en jeu que ca marche
