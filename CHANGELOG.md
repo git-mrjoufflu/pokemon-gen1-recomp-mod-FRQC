@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.0.11
+
+Grosse passe de grammaire quebecoise dans le dialogue des PNJ (363 lignes),
+en s'appuyant sur je-parle-quebecois.com pour valider les tournures.
+N'affecte PAS les entrees Pokedex ni les pancartes (voix plus neutre) -
+seulement ce que les personnages disent.
+
+- "il"/"ils" -> "y" partout (sujet), ex. "Il est cool" -> "Y est cool"
+- "elle" -> "a" (ou "al" devant voyelle), "elles" -> "y", ex. "Elle est
+  cool" -> "Al est cool", "Elles sont accrochees" -> "Y sont accrochees"
+- "qu'il"/"qu'ils" -> "qu'y", "s'il"/"s'ils" -> "s'y" (sauf l'idiome
+  "s'il te plait" -> "s'te plait")
+- Questions inversees a la forme "-il"/"-ils" -> "-tu" ("ont-ils?" ->
+  "ont-tu?")
+- Doublage de la particule interrogative: "Veux-tu" -> "Tu veux-tu",
+  "As-tu" -> "T'as-tu", "Sais-tu" -> "Tu sais-tu", "Crois-tu" -> "Tu
+  crois-tu" (mais "Qu'est-ce que" reste tel quel - c'est une question
+  "quoi", pas une question oui/non, la particule -tu s'applique pas la)
+- "toi"/"moi" -> "toe"/"moe" (la vraie orthographe est "toé"/"moé", mais
+  la police du jeu peut pas afficher les accents - voir le fiasco TTF de
+  la 1.0.8/1.0.9)
+
 ## 1.0.10
 
 - "de cette facon" (trop France) remplace par "de meme" dans le dialogue du
