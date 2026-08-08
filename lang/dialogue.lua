@@ -1646,7 +1646,7 @@ return {
   ["_Route1Youngster1GotPotionText"] = "{PLAYER} obtient:\n{RAM:wStringBuffer}!",
   ["_Route1Youngster1MartSampleText"] = "Salut! Je\ntravaille a la\11BOUTIQUE POKEMON.\12Nous avons plein\nd'articles! Viens\11nous voir a\11MONT-TREMBLANT.\12Prends donc\nceci comme\11echantillon!",
   ["_Route1Youngster1NoRoomText"] = "Ton inventaire\nest plein!",
-  ["_Route1Youngster2Text"] = "Tu vois ces\nrebords le long\11de la route?\12Tu peux sauter\npar-dessus! C'est\11dingue, non?\12Tu peux revenir\nplus vite a\11BAIE-SAINT-PAUL de\11cette facon!",
+  ["_Route1Youngster2Text"] = "Tu vois ces\nrebords le long\11de la route?\12Tu peux sauter\npar-dessus! C'est\11dingue, non?\12Tu peux revenir\nplus vite a\11BAIE-SAINT-PAUL de\11meme!",
   ["_Route20CooltrainerMAfterBattleText"] = "Mes oiseaux ne\npeuvent plus\11voler!",
   ["_Route20CooltrainerMBattleText"] = "Mes oiseaux\nPOKEMON m'ont\11depose icitte!",
   ["_Route20CooltrainerMEndBattleText"] = "Oh!\nNOoOoOon!",

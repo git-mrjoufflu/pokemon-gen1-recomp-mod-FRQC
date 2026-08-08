@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.10
+
+- "de cette facon" (trop France) remplace par "de meme" dans le dialogue du
+  jeune sur ROUTE 1, pour matcher le "de meme" utilise partout ailleurs
+  dans le mod.
+
 ## 1.0.9
 
 - Revert de l'experiment 1.0.8 (police TTF): confirme en jeu que l'ecran de
