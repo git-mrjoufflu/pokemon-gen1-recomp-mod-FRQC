@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.12
+
+- Bug rapporte en jeu: "Le PROF. TREMBLAY est" (22 caracteres) debordait
+  de la boite de texte, ne laissant que "est" visible sur la premiere
+  ligne. Corrige en deplacant la coupure de ligne.
+- "Vas-y" remplace par "Awoye" aux 2 endroits ou il apparaissait.
+- Passe de correction de debordement sur les 11 lignes ou le doublage de
+  la particule interrogative de la 1.0.11 ("Tu veux-tu", "T'as-tu", "Tu
+  crois-tu") avait pousse la ligne au-dela des 18 caracteres surs.
+- Note: un scan complet du dialogue PNJ montre encore ~90 lignes plus
+  anciennes (avant la 1.0.11) proches ou au-dela de la limite de 18
+  caracteres, surtout a cause de "TREMBLAY" (plus long que "OAK"), des
+  noms de villes quebecois et de mots comme "icitte"/"mautadine"/"un
+  p'tit peu". Pas tous casses en jeu (certains passent avec la police
+  actuelle), mais a surveiller - prochaine passe dediee a prevoir.
+
 ## 1.0.11
 
 Grosse passe de grammaire quebecoise dans le dialogue des PNJ (363 lignes),
